@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'OpenSans';
+    src: url('fonts/OpenSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'OpenSansBold';
+    src: url('fonts/OpenSans-Bold.ttf') format('truetype');
+}
+
+.title{
+    font-family: OpenSansBold;
+    text-align: center;
+    color: #e4007d94;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin: 70px 0 30px;
+    font-weight: 600;
+}
+
+.title h2{
+    font-family: OpenSansBold;
+    font-size: 32px;
+    color: #e4007c;
+    margin-top: 5px;
+    text-transform: none;
+}
