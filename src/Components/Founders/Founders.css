@@ -1,0 +1,64 @@
+.founders{
+    margin: 80px auto;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.founder img{
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+}
+
+.founder{
+    flex-basis: 31%;
+    position: relative;
+}
+
+.caption{
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(228,0,124, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    cursor: pointer;
+    opacity: 0;
+    padding-top: 70%;
+    transition: 0.4s;
+}
+
+.caption p{
+    margin: 10px;
+    text-align: center;
+}
+
+.founder:hover .caption{
+    opacity: 1;
+    padding-top: 0;
+}
+
+@media(max-width:760px){
+
+    .founders{
+        flex-direction: column;
+    }
+
+    .founder{
+        flex-basis: 100%;
+        margin: 20px;
+    }
+
+    .caption p{
+        font-size: 20px;
+    }
+
+}
