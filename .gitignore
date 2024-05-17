@@ -25,5 +25,3 @@ dist-ssr
 
 vite.config.js
 .eslintrc.cjs
-
-*.mp4
